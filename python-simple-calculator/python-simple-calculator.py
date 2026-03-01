@@ -18,7 +18,8 @@ def number():
       print("result=",num1 * num2)
    elif choices==4:
         if num2==0:
-            print("Error")
+            print("Error can't divided by zero")
         else:
             print("result=",num1 / num2)
+
 number()
